@@ -22,8 +22,9 @@ print("bienvenue", name_user)
 
 exo4="Exercice 4: Nom et prénom"
 print(exo4)
-Nom="Harrioui"
-Prenom="Emira"
+Nom = "Harrioui"
+Prenom = "Emira"
+print("Bonjour {} {}".format(Prenom, Nom))
 print("Bonjour "+ Prenom +" "+ Nom)
 
 exo5="Exercice 5:Des caractères au nombre"

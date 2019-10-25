@@ -1,7 +1,7 @@
 exo1="Exercice 1: Hello world"
 print=exo1
 print("hello world")
-var = "hello world"
+var = "hello word"
 print(var)
 
 exo2="Exercice 2: Calculs divers"
@@ -19,6 +19,7 @@ print(exo3)
 message="Entrer votre nom"
 name_user=input(message)
 print("bienvenue", name_user)
+print("bonjour {}".format(nom))
 
 exo4="Exercice 4: Nom et prénom"
 print(exo4)

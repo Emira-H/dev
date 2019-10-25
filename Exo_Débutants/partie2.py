@@ -1,21 +1,27 @@
 ##Partie 2
 exo1="Exercice 1: True ou False"
 print(exo1)
-var1="Coucou Bruno"
-var2=""
-if len(var1)==0 and len(var2)==0:
-    print("True")
-else:
-    print("False")
+
+#2ème méthode
+var = ""
+var1= "test"
+print(len(var))==0)
+print(len(var1)==0)
+
+# 3ème méthode avec le booléén
+print(bool(var))
+print(bool(var1))
+
 
 exo2="Exercice 2: Calculer mon âge"
 print(exo2)
-year=int(input("quelle est l'année actuelle? "))
-birth_year=int(input("quelle est votre année de naissance? "))
-age=year-birth_year
+year = int(input("quelle est l'année actuelle? "))
+birth_year = int(input("quelle est votre année de naissance? "))
+age = year-birth_year
 print(age)
-neighbour_age=int(input("quelle est l'age de votre voisin? "))
+neighbour_age = int(input("quelle est l'age de votre voisin? "))
 print(40+neighbour_age)
+
 
 exo3="Exercice 3:Problème de chaussures"
 print(exo3)
@@ -24,6 +30,10 @@ prix2=59
 prix3=20
 total=(prix1+prix2+prix3)*0.8
 print(total)
+
+#Méthode de Sofiane avec lambda
+somme = lambda total:total * 0,8
+print("le prix total est {}.format(somme(prix1 + prix2 + prix3))")
 
 exo4 = "Exercice 4: une calculatrice Python"
 print(exo4)
